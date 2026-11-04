@@ -5,6 +5,8 @@
 - Fixes the first dry run, which stopped after 10 minutes without saving anything. Last.fm sends a single item instead of a one-item list, for example an artist with one tag, and the tag check didn't expect that.
 - One artist's bad reply is now counted as an error and skipped, so it can't stop the whole run.
 - A failed run now writes a receipt saying which phase failed and on which code line. It never includes the error's text, which could hold an artist name.
+- Each run attempt saves its cache under its own name, so a re-run no longer fails to save.
+- The result commit pulls the latest code first, so it isn't rejected when the repo has moved on since the run started.
 - Every run commits `data/last-run-dry.md` or `data/last-run-full.md`, which says whether each step passed. Results can then be checked without opening the Actions logs.
 
 ## 0.1.0 · 4 Nov 2026

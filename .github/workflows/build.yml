@@ -40,7 +40,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: .cache
-          key: lookups-${{ github.run_id }}
+          key: lookups-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: lookups-
 
       - name: Write the seed list (private, never committed or printed)
@@ -67,7 +67,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: .cache
-          key: lookups-${{ github.run_id }}
+          key: lookups-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Remove the seed list
         if: always()
@@ -92,5 +92,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Data: $MODE run ${{ github.run_number }}"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
