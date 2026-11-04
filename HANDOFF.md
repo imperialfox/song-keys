@@ -48,6 +48,7 @@ This repo only: `fetch.py`, `tests/test_fetch.py`, `.github/workflows/build.yml`
 ## Notes from the build
 
 - Seeds are only excluded as candidates against the 300 seed names, not against all 3,242 of Ivan's artists. So some neighbours may be artists he already has. The local merge removes those duplicates. Excluding all of them would have meant putting his full artist list into GitHub.
+- The first dry run (run 1, 4 Nov 11:10) failed after 10 minutes with nothing saved. The likely cause was Last.fm's single-item replies. Fixed in 0.1.1, which also makes every run record its own result in `data/`.
 - Claude can push to this repo but can't read its Actions settings, runs or logs through its proxy. So Ivan adds the secrets and starts the runs, and Claude reads the results from the committed `data/` files.
 
 ## Debrief

@@ -15,10 +15,10 @@ Privacy rules (see HANDOFF.md, D2 and D2a):
 
 Standard library only. Run:  python3 fetch.py --seeds seed.txt --limit 10 --out data/neighbours-dry-run.json
 """
-import argparse, json, os, re, sys, threading, time, unicodedata, urllib.parse, urllib.request, urllib.error
+import argparse, json, os, re, sys, threading, time, traceback, unicodedata, urllib.parse, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 UA = f"song-keys/{VERSION} (https://github.com/imperialfox/song-keys)"
 LASTFM = "https://ws.audioscrobbler.com/2.0/"
 LB_SIMILAR = "https://labs.api.listenbrainz.org/similar-artists/json"
@@ -46,8 +46,23 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", s)
 
 
+PHASE = {"name": "starting", "receipt": None}
+
+
+def as_list(x):
+    """Last.fm sends one item as a dict instead of a one-item list."""
+    if isinstance(x, list):
+        return x
+    return [x] if isinstance(x, dict) else []
+
+
 def log(msg):
     print(msg, flush=True)
+
+
+def phase(name):
+    PHASE["name"] = name
+    log(f"Phase: {name}")
 
 
 class Limiter:
@@ -149,7 +164,7 @@ class Sources:
         d = self.c.get("lastfm", LASTFM, {"method": "artist.getsimilar", "artist": name, "autocorrect": "1", "limit": "30"})
         out = []
         try:
-            for a in d["similarartists"]["artist"]:
+            for a in as_list(d["similarartists"]["artist"]):
                 m = float(a.get("match") or 0)
                 if m >= LASTFM_FLOOR:
                     out.append({"name": a["name"], "mbid": a.get("mbid") or None, "score": m})
@@ -160,17 +175,17 @@ class Sources:
     def lfm_top_tracks(self, name):
         d = self.c.get("lastfm", LASTFM, {"method": "artist.gettoptracks", "artist": name, "autocorrect": "1", "limit": "15"})
         try:
-            return [{"title": t["name"], "mbid": t.get("mbid") or None} for t in d["toptracks"]["track"]]
+            return [{"title": t["name"], "mbid": t.get("mbid") or None} for t in as_list(d["toptracks"]["track"]) if t.get("name")]
         except (TypeError, KeyError):
             return []
 
     def lfm_is_instrumental(self, name):
         d = self.c.get("lastfm", LASTFM, {"method": "artist.gettoptags", "artist": name, "autocorrect": "1"})
         try:
-            tags = d["toptags"]["tag"]
+            tags = as_list(d["toptags"]["tag"])
         except (TypeError, KeyError):
             return False
-        return bool(tags) and "instrumental" in (tags[0].get("name") or "").lower()
+        return bool(tags) and "instrumental" in str(tags[0].get("name") or "").lower()
 
     # ListenBrainz (needs a MusicBrainz artist ID)
     def lb_similar(self, mbid):
@@ -199,7 +214,7 @@ class Sources:
     def mb_artist(self, name):
         d = self.c.get("mb", MB + "artist", {"query": f'artist:"{self._q(name)}"', "limit": "3", "fmt": "json"})
         try:
-            for a in d["artists"]:
+            for a in as_list(d["artists"]):
                 if int(a.get("score", 0)) >= 90 and norm(a["name"]) == norm(name):
                     return {"mbid": a["id"], "name": a["name"]}
             a = d["artists"][0]
@@ -246,10 +261,19 @@ def combine(lfm, lb):
     return sorted(pool.values(), key=lambda e: (-len(e["sources"]), -e["score"], e["name"].lower()))
 
 
+def safely(src, where, fn, default):
+    """Run one artist's lookup; on an unexpected error count it and move on."""
+    try:
+        return fn()
+    except Exception as e:
+        src.c._err("script", f"{where}:{type(e).__name__}")
+        return default
+
+
 def candidates(src, name, mbid):
-    lfm = src.lfm_similar(name)
-    lb = src.lb_similar(mbid)
-    return combine(lfm, lb)
+    def go():
+        return combine(src.lfm_similar(name), src.lb_similar(mbid))
+    return safely(src, "similar", go, [])
 
 
 def pick(src, cands, take, blocked, picked_now):
@@ -260,7 +284,7 @@ def pick(src, cands, take, blocked, picked_now):
         k = norm(c["name"])
         if k in blocked or k in picked_now:
             continue
-        if src.lfm_is_instrumental(c["name"]):
+        if safely(src, "tags", lambda: src.lfm_is_instrumental(c["name"]), False):
             picked_now.add(k)  # don't re-check it
             src.dropped_instrumental += 1
             continue
@@ -301,6 +325,7 @@ def main():
     ap.add_argument("--minutes", type=float, default=320, help="stop starting new lookups after this many minutes")
     ap.add_argument("--workers", type=int, default=6)
     a = ap.parse_args()
+    PHASE["receipt"] = a.receipt
 
     key = os.environ.get("LASTFM_API_KEY", "").strip()
     if not key:
@@ -320,9 +345,10 @@ def main():
     src.dropped_titles = 0
     blocked = {norm(s) for s in seeds}   # D3: never pick a seed artist
     log(f"Seeds: {len(seeds)}")
+    phase("layer 2")
 
     def seed_job(name):
-        m = src.mb_artist(name)
+        m = safely(src, "seed-id", lambda: src.mb_artist(name), None)
         return candidates(src, name, m["mbid"] if m else None)
 
     # Layer 2
@@ -341,6 +367,7 @@ def main():
     client.save()
 
     # Layer 3
+    phase("layer 3")
     l2_list = list(layer2.values())
     with ThreadPoolExecutor(a.workers) as ex:
         l2_cands = list(ex.map(lambda e: candidates(src, e["name"], e.get("mbid")), l2_list))
@@ -356,18 +383,20 @@ def main():
     client.save()
 
     # MusicBrainz name and ID for every new artist, then songs
+    phase("names and songs")
     artists = list(layer2.values()) + list(layer3.values())
 
     def finish(e):
-        m = src.mb_artist(e["name"])
+        m = safely(src, "artist-id", lambda: src.mb_artist(e["name"]), None)
         if m:
             e["mbid"], e["mb_name"] = m["mbid"], m["name"]
-        e["songs"] = songs_for(src, e)
+        e["songs"] = safely(src, "songs", lambda: songs_for(src, e), [])
         return e
     with ThreadPoolExecutor(a.workers) as ex:
         artists = list(ex.map(finish, artists))
     client.save()
 
+    phase("writing output")
     out_artists = []
     for e in sorted(artists, key=lambda e: (-e["closeness"], e["layer"], e["name"].lower())):
         if not e["songs"]:
@@ -418,5 +447,13 @@ if __name__ == "__main__":
     except SystemExit:
         raise
     except Exception as e:  # never print values that could hold a seed name
-        print(f"Stopped with an error: {type(e).__name__}", flush=True)
+        where = [f"{os.path.basename(f.filename)} line {f.lineno} in {f.name}" for f in traceback.extract_tb(e.__traceback__)]
+        msg = f"Stopped with an error: {type(e).__name__} during '{PHASE['name']}'"
+        print(msg, flush=True)
+        for w in where[-4:]:
+            print("  at " + w, flush=True)
+        if PHASE["receipt"]:
+            os.makedirs(os.path.dirname(PHASE["receipt"]) or ".", exist_ok=True)
+            open(PHASE["receipt"], "w", encoding="utf-8").write(
+                f"# Build receipt\n\n- Status: FAILED\n- {msg}\n" + "".join(f"- at {w}\n" for w in where[-4:]))
         sys.exit(1)

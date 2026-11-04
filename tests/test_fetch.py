@@ -27,10 +27,13 @@ def resp(url):
     u = urllib.parse.urlparse(url); q = dict(urllib.parse.parse_qsl(u.query))
     if "audioscrobbler" in u.netloc:
         m, a = q["method"], q.get("artist", "")
+        if m == "artist.getsimilar" and a == "Gamma":  # one similar artist comes as a dict
+            return {"similarartists": {"artist": {"name": "Iota", "mbid": "", "match": "0.8"}}}
         if m == "artist.getsimilar":
             return {"similarartists": {"artist": [{"name": n, "mbid": "", "match": str(s)} for n, s in SIM.get(a, [])]}}
         if m == "artist.gettoptags":
-            return {"toptags": {"tag": [{"name": "instrumental" if a in INSTR else "soul"}]}}
+            tag = {"name": "instrumental" if a in INSTR else "soul"}
+            return {"toptags": {"tag": tag if a in ("Beta", "Pianoman") else [tag]}}  # one tag comes as a dict
         if m == "artist.gettoptracks":
             names = [f"{a} Song 1 (Remix)", f"{a} Instrumental", f"{a} Song 2 - Live"] + [f"{a} Song {i}" for i in range(1, 7)]
             return {"toptracks": {"track": [{"name": n, "mbid": "rec-" + n if n.endswith("1") else ""} for n in names]}}
