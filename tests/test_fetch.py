@@ -14,7 +14,7 @@ FAKE = textwrap.dedent(r'''
 import json, sys, urllib.parse, urllib.request, io
 SIM = {  # Last.fm similar lists
   "Seedone":  [("Alpha", .9), ("Seedtwo", .8), ("Beta", .7), ("Gamma", .5), ("Delta", .3), ("Weak", .1)],
-  "Seedtwo":  [("Alpha", .9), ("Pianoman", .85), ("Epsilon", .6), ("Zeta", .4)],
+  "Seedtwo":  [("Alpha", .9), ("Seedthree", .88), ("Mine", .87), ("Pianoman", .85), ("Epsilon", .6), ("Zeta", .4)],
   "Alpha":    [("Beta", .9), ("Eta", .7)],
   "Beta":     [("Theta", .8)],
   "Gamma":    [("Iota", .8)],
@@ -66,12 +66,14 @@ fetch.main()
 def main():
     with tempfile.TemporaryDirectory() as d:
         seeds = os.path.join(d, "seed.txt")
-        open(seeds, "w").write("Seedone\nSeedtwo\n")
+        open(seeds, "w").write("Seedone\nSeedtwo\nSeedthree\n")
+        skip = os.path.join(d, "skip.txt")
+        open(skip, "w").write("Mine\n")
         runner = os.path.join(d, "run.py")
         open(runner, "w").write(FAKE)
         out, rec = os.path.join(d, "out.json"), os.path.join(d, "receipt.md")
         p = subprocess.run([sys.executable, "-I", runner, "--seeds", seeds, "--out", out, "--receipt", rec,
-                            "--cache", os.path.join(d, "cache"), "--workers", "2"],
+                            "--cache", os.path.join(d, "cache"), "--workers", "2", "--skip", skip, "--limit", "2"],
                            env={**os.environ, "LASTFM_API_KEY": "test"}, capture_output=True, text=True)
         assert p.returncode == 0, p.stdout + p.stderr
         logs = p.stdout + p.stderr
@@ -81,7 +83,7 @@ def main():
         by = {a["name"]: a for a in data["artists"]}
 
         # Seeds never appear as artists, in logs or in the receipt
-        for s in ("Seedone", "Seedtwo"):
+        for s in ("Seedone", "Seedtwo", "Seedthree", "Mine"):
             assert s not in names and s not in logs and s not in receipt, s
             assert s not in json.dumps([a["name"] for a in data["artists"]])
         # Layer 2: Seedone -> Alpha (both), Gamma (both), Beta; Seedtwo -> Alpha, Epsilon, Zeta (Pianoman instrumental)

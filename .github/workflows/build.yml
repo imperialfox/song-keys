@@ -43,10 +43,13 @@ jobs:
           key: lookups-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: lookups-
 
-      - name: Write the seed list (private, never committed or printed)
+      - name: Write the seed and skip lists (private, never committed or printed)
         env:
           SEED_ARTISTS: ${{ secrets.SEED_ARTISTS }}
-        run: printf '%s\n' "$SEED_ARTISTS" > "$RUNNER_TEMP/seed.txt"
+          SKIP_ARTISTS: ${{ secrets.SKIP_ARTISTS }}
+        run: |
+          printf '%s\n' "$SEED_ARTISTS" > "$RUNNER_TEMP/seed.txt"
+          printf '%s\n' "$SKIP_ARTISTS" > "$RUNNER_TEMP/skip.txt"
 
       - name: Fan out
         id: fanout
@@ -55,10 +58,10 @@ jobs:
           MODE: ${{ inputs.mode }}
         run: |
           if [ "$MODE" = "full" ]; then
-            python3 -I fetch.py --seeds "$RUNNER_TEMP/seed.txt" \
+            python3 -I fetch.py --seeds "$RUNNER_TEMP/seed.txt" --skip "$RUNNER_TEMP/skip.txt" \
               --out data/neighbours.json --receipt data/build-receipt.md
           else
-            python3 -I fetch.py --seeds "$RUNNER_TEMP/seed.txt" --limit 10 --minutes 60 \
+            python3 -I fetch.py --seeds "$RUNNER_TEMP/seed.txt" --skip "$RUNNER_TEMP/skip.txt" --limit 10 --minutes 60 \
               --out data/neighbours-dry-run.json --receipt data/build-receipt-dry-run.md
           fi
 
@@ -69,9 +72,9 @@ jobs:
           path: .cache
           key: lookups-${{ github.run_id }}-${{ github.run_attempt }}
 
-      - name: Remove the seed list
+      - name: Remove the seed and skip lists
         if: always()
-        run: rm -f "$RUNNER_TEMP/seed.txt"
+        run: rm -f "$RUNNER_TEMP/seed.txt" "$RUNNER_TEMP/skip.txt"
 
       # Runs even when an earlier step fails, so the result can be read from the repo.
       - name: Commit results

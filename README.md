@@ -25,6 +25,7 @@ It runs as a GitHub Action, by hand: **Actions › Build neighbours › Run work
 It needs two repo secrets.
 - `LASTFM_API_KEY` is a Last.fm API key.
 - `SEED_ARTISTS` is the seed artists, one per line.
+- `SKIP_ARTISTS` is optional. It lists other artists to never pick, one per line, so every pick is new to the seed owner.
 
 A full run makes about 10,000 requests at one per second per service, which takes 2 to 3 hours. If it runs out of time it saves what it has and marks the receipt `PARTIAL`. Running it again carries on from the cache.
 
@@ -33,7 +34,7 @@ To test it offline with made-up artists, run `python3 -I tests/test_fetch.py`.
 ## Privacy
 
 The seed list is personal, so it never appears in this repo.
-- It lives only in a repo secret. The Action writes it to a temporary file and deletes it at the end.
+- It lives only in repo secrets, along with the optional skip list. The Action writes it to a temporary file and deletes it at the end.
 - The script never prints seed names, only counts. Errors print their type, never a name or a URL.
 - The lookup cache would show which artists were searched, so it stays in the private Actions cache and is never committed.
 - The output lists new artists and a closeness score. It never says which seed led to which artist.

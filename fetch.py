@@ -18,7 +18,7 @@ Standard library only. Run:  python3 fetch.py --seeds seed.txt --limit 10 --out 
 import argparse, json, os, re, sys, threading, time, traceback, unicodedata, urllib.parse, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 UA = f"song-keys/{VERSION} (https://github.com/imperialfox/song-keys)"
 LASTFM = "https://ws.audioscrobbler.com/2.0/"
 LB_SIMILAR = "https://labs.api.listenbrainz.org/similar-artists/json"
@@ -320,6 +320,7 @@ def songs_for(src, artist):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seeds", required=True, help="file with one artist per line (from the SEED_ARTISTS secret)")
+    ap.add_argument("--skip", default="", help="optional file of other artists to never pick (from the SKIP_ARTISTS secret)")
     ap.add_argument("--limit", type=int, default=0, help="use only the first N seeds (0 = all)")
     ap.add_argument("--out", required=True)
     ap.add_argument("--receipt", required=True)
@@ -345,8 +346,11 @@ def main():
     src = Sources(client)
     src.dropped_instrumental = 0
     src.dropped_titles = 0
-    blocked = {norm(s) for s in seeds}   # D3: never pick a seed artist
-    log(f"Seeds: {len(seeds)}")
+    all_seeds = [l.strip() for l in open(a.seeds, encoding="utf-8") if l.strip()]
+    skip = [l.strip() for l in open(a.skip, encoding="utf-8") if l.strip()] if a.skip and os.path.exists(a.skip) else []
+    # D3: never pick an artist Ivan already has. All seeds are blocked even in a dry run.
+    blocked = {norm(s) for s in all_seeds + skip}
+    log(f"Seeds: {len(seeds)}, artists to skip: {len(blocked)}")
     phase("layer 2")
 
     def seed_job(name):
@@ -426,7 +430,7 @@ def main():
         "",
         f"- Generated: {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}, song-keys {VERSION}",
         f"- Status: {'PARTIAL (ran out of time; run again to continue from the cache)' if partial else 'complete'}",
-        f"- Seed artists used: {len(seeds)} (names kept private)",
+        f"- Seed artists used: {len(seeds)}; artists skipped as already known: {len(blocked)} (names kept private)",
         f"- New artists: {len(out_artists)} (layer 2: {sum(1 for x in out_artists if x['layer']==2)}, layer 3: {sum(1 for x in out_artists if x['layer']==3)})",
         f"- Songs: {len(songs)}",
         f"- Named from MusicBrainz: {mb_artists} of {len(out_artists)} artists, {mb_songs} of {len(songs)} songs",

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3 · 4 Nov 2026
+
+- There's a new optional `SKIP_ARTISTS` secret, a list of artists to never pick, one per line. With it, every pick is an artist new to the seed owner. In the first dry run, 47 of the 58 picks were artists already in the library.
+- All seed artists are blocked even in a dry run, not only the 10 it uses.
+
 ## 0.1.2 · 4 Nov 2026
 
 - A MusicBrainz artist is now only accepted when its name or an alias matches. The dry run had named SiR as "Sir Arthur Conan Doyle", Saba as "Joseph Saba" and Dave as "Dave Matthews Band", because a top search score was trusted on its own.

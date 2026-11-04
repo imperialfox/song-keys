@@ -19,6 +19,10 @@ Start from Ivan's top 300 artists. Find 3 similar artists for each, then 1 more 
 - **Instrumentals.** These are dropped by title words and by the artist's top Last.fm tag (D5).
 - **Repo files.** MIT licence, README with credits, changelog, this handoff (D1).
 
+## Changed during the Build
+
+- **Skip list** (Ivan, 4 Nov 2026, about 13:05, on a question card) adds a second secret, `SKIP_ARTISTS`, holding the other 2,942 artists in his library. The fan-out never picks them, so every new artist is new to him. This widens what goes into GitHub, but like the seed it is encrypted, never committed and never printed. Reason: in the first dry run, 47 of the 58 picks were artists he already had.
+
 ## Out of scope
 
 - Keys for the new songs.
@@ -42,12 +46,11 @@ This repo only: `fetch.py`, `tests/test_fetch.py`, `.github/workflows/build.yml`
 1. Run the dry run on 10 seeds, and Ivan looks over the neighbours before the full run.
 2. Spot-check artists he knows, plus 10 at random.
 3. At least a third of the layer-3 picks should be named by both sources. If fewer are, lower the floor or report it.
-4. Search the repo, its history and one Action log for five seed names. None should turn up.
+4. Search the repo, its history and one Action log for five seed names. They must never appear as a list, as an output artist, or next to the artist they led to. They do appear inside public song credits ("feat. ...") on other artists' songs, which is public data and says nothing about the seed list (checked 4 Nov after the first dry run).
 5. Check the credit lines against each service's terms.
 
 ## Notes from the build
 
-- Seeds are only excluded as candidates against the 300 seed names, not against all 3,242 of Ivan's artists. So some neighbours may be artists he already has. The local merge removes those duplicates. Excluding all of them would have meant putting his full artist list into GitHub.
 - The first dry run (run 1, 4 Nov 11:10) failed after 10 minutes with nothing saved. The likely cause was Last.fm's single-item replies. Fixed in 0.1.1, which also makes every run record its own result in `data/`.
 - Claude can push to this repo but can't read its Actions settings, runs or logs through its proxy. So Ivan adds the secrets and starts the runs, and Claude reads the results from the committed `data/` files.
 
