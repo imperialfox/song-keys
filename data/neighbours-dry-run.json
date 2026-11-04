@@ -1,0 +1,2495 @@
+{
+ "version": "0.1.1",
+ "generated": "2026-11-04T12:56:27Z",
+ "partial": false,
+ "artists": [
+  {
+   "name": "J Balvin",
+   "mbid": "5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 2.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "LA CANCIÓN",
+     "artist": "J Balvin & Bad Bunny",
+     "mbid": "6799c836-480b-4b2d-b2c7-948d04b10c09",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Mi gente",
+     "artist": "J Balvin & Willy William",
+     "mbid": "efffd9f8-298c-4ce8-9770-ef385b0d1832",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "QUE PRETENDES",
+     "artist": "J Balvin & Bad Bunny",
+     "mbid": "386a6a2f-fec4-478c-99be-275396ebe222",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Ginza",
+     "artist": "J Balvin feat. Anitta",
+     "mbid": "87bd80ba-cf33-4362-aa88-e3ced16241da",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "In da Getto",
+     "artist": "J.Balvin & Skrillex",
+     "mbid": "ba4eb922-1e7b-4c2f-bbf8-4d27a0bed733",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "AJ Tracey",
+   "mbid": "b8638bdc-728d-4d43-a908-7be7db29073b",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Ladbroke Grove",
+     "artist": "AJ Tracey",
+     "mbid": "a44fb479-9123-4a3a-96dd-5a5737719aa4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Joga Bonito",
+     "artist": "AJ Tracey",
+     "mbid": "dfe40e33-33ef-4f60-8136-81a5c929feed",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Little More Love",
+     "artist": "AJ Tracey",
+     "mbid": "8a2d2460-838e-4454-853e-f63f211e1fa7",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Dinner Guest (feat. MoStack)",
+     "artist": "AJ Tracey",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Crush (feat. Jorja Smith)",
+     "artist": "AJ Tracey",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Becky G",
+   "mbid": "eb90c8b8-d733-4c14-a293-105c3d1ba9b3",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Shower",
+     "artist": "Becky G",
+     "mbid": "4235d782-5e22-40e2-89f4-42c0ec7196ec",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Mayores",
+     "artist": "Becky G feat. Bad Bunny",
+     "mbid": "fd39b5ae-c231-4668-8806-5e80276c4d39",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "MAMIII",
+     "artist": "Becky G x KAROL G",
+     "mbid": "a6b42ba3-4e60-452c-a458-99d96369cf17",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Sin pijama",
+     "artist": "Becky G + Natti Natasha",
+     "mbid": "5e86abc7-aab2-4c81-bf0a-1f5693fbde31",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Cuando te besé",
+     "artist": "Becky G & Paulo Londra",
+     "mbid": "82a910ab-dd37-4f47-a73d-9c99a43771ae",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "BJ the Chicago Kid",
+   "mbid": "112beffb-1adc-488b-8d61-7b2ab3475d52",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Turnin’ Me Up",
+     "artist": "BJ The Chicago Kid",
+     "mbid": "1457a673-22a2-43a6-88dc-e519fdb2b0f0",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Smokin' And Ridin' (feat. Freddie Gibbs & Problem)",
+     "artist": "BJ The Chicago Kid",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Feel the Vibe",
+     "artist": "BJ the Chicago Kid feat. Anderson .Paak",
+     "mbid": "6e82a609-1edd-4fe0-a36f-79685297c360",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Church",
+     "artist": "BJ the Chicago Kid feat. Chance the Rapper and Buddy",
+     "mbid": "e5eaeb8a-7dd7-4743-8538-52ac0e6cfaa5",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "His Pain",
+     "artist": "BJ the Chicago Kid",
+     "mbid": "92beb540-e2c1-473a-a72d-5749d66b527b",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Charlie Puth",
+   "mbid": "525f1f1c-03f0-4bc8-8dfd-e7521f87631b",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Attention",
+     "artist": "Charlie Puth",
+     "mbid": "bbba4cde-b73d-465b-a9b9-02be23c47bed",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "We Don’t Talk Anymore",
+     "artist": "Charlie Puth feat. Selena Gomez",
+     "mbid": "a16e6dab-38d7-4ec6-b751-c1ebb5e62c22",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Left and Right",
+     "artist": "Charlie Puth feat. Jung Kook",
+     "mbid": "e6d38e00-9aad-4053-a1bd-b6882b14a964",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "How Long",
+     "artist": "Charlie Puth",
+     "mbid": "88516e03-1ee1-4753-9fb6-f2d39cee2fe5",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Light Switch",
+     "artist": "Charlie Puth",
+     "mbid": "c7cc2f43-6185-4ce7-8c3e-e3f7285f4818",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Childish Gambino",
+   "mbid": "7fb57fba-a6ef-44c2-abab-2fa3bdee607e",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Redbone",
+     "artist": "Childish Gambino",
+     "mbid": "ac5977af-d4dc-4636-b867-b02e15d2f6d8",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Heartbeat",
+     "artist": "Childish Gambino",
+     "mbid": "1a474095-207c-4834-a69e-cc891e3a8f00",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "L.E.S.",
+     "artist": "Childish Gambino",
+     "mbid": "aab4c449-63d6-4509-a3a8-06727091d866",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "3005",
+     "artist": "Childish Gambino",
+     "mbid": "fe6e4bc6-b29d-4df3-addb-6c77aede81a6",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Me and Your Mama",
+     "artist": "Childish Gambino",
+     "mbid": "0d432f1e-60d7-40bd-b52a-2b89b1332d08",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Future",
+   "mbid": "48262e82-db9f-4a92-b650-dfef979b73ec",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Mask Off",
+     "artist": "Future",
+     "mbid": "7f205890-07f3-487c-bef1-e7d251dc867b",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Like That",
+     "artist": "Future, Metro Boomin & Kendrick Lamar",
+     "mbid": "d4133a55-d72a-4ced-9a4d-d8afb4bd2058",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Type Shit",
+     "artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
+     "mbid": "8757d272-9292-42df-b67a-7246cc97bda3",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "WAIT FOR U (feat. Drake & Tems)",
+     "artist": "Future",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Life Is Good (feat. Drake)",
+     "artist": "Future",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "GoldLink",
+   "mbid": "7cb6e306-a75b-48b4-be00-2c4aa6bbe3a8",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Crew (feat. Brent Faiyaz & Shy Glizzy)",
+     "artist": "GoldLink",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "U Say (feat. Tyler, the Creator & Jay Prince)",
+     "artist": "GoldLink",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Some Girl (feat. Steve Lacy)",
+     "artist": "GoldLink",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Herside Story",
+     "artist": "GoldLink x Hare Squead",
+     "mbid": "b833b609-0950-4ef8-b3b0-6218b4b10635",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Evian (feat. PinkPantheress, Rizloski & Rax)",
+     "artist": "GoldLink",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "J. Cole",
+   "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "No Role Modelz",
+     "artist": "J. Cole",
+     "mbid": "bbef4a51-952d-47d9-a2c1-1fc239dae675",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Wet Dreamz",
+     "artist": "J. Cole",
+     "mbid": "1d2200fa-1d38-46de-9112-bf9fab55c437",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Work Out",
+     "artist": "J. Cole",
+     "mbid": "cc623489-1927-40c7-bcdf-159f525050aa",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "MIDDLE CHILD",
+     "artist": "J. Cole",
+     "mbid": "5959fbc1-e985-4985-8811-515c36ba6a0d",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Power Trip (feat. Miguel)",
+     "artist": "J. Cole",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Jay Rock",
+   "mbid": "9880800a-f6f8-4f8f-a00e-b4b664776c0c",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "King's Dead (with Kendrick Lamar, Future & James Blake)",
+     "artist": "Jay Rock",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Hood Gone Love It (feat. Kendrick Lamar)",
+     "artist": "Jay Rock",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Wow Freestyle (feat. Kendrick Lamar)",
+     "artist": "Jay Rock",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "WIN",
+     "artist": "Jay Rock & Kendrick Lamar",
+     "mbid": "62eb7924-ae62-4d2b-8542-69515061bfdf",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Vice City (feat. Black Hippy)",
+     "artist": "Jay Rock",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "JAY-Z & Kanye West",
+   "mbid": null,
+   "name_source": "lastfm",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm"
+   ],
+   "songs": [
+    {
+     "title": "All Black",
+     "artist": "JAY-Z & Kanye West",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Gotta Have It",
+     "artist": "JAY-Z & Kanye West",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Niggas in Paris",
+     "artist": "JAY-Z & Kanye West",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Otis (feat. Otis Redding)",
+     "artist": "JAY-Z & Kanye West",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Ni**as In Paris",
+     "artist": "JAY-Z & Kanye West",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "JHAYCO",
+   "mbid": "2b67658e-429f-425a-adf5-345b13112fc1",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Holanda",
+     "artist": "JHAYCO",
+     "mbid": "42cde069-ae2e-4df0-8757-380e04d3d1a7",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Tokyo",
+     "artist": "Jhay Cortez",
+     "mbid": "4ca67ee4-f0e3-43d0-8352-900b3254482a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Ley seca",
+     "artist": "Jhay Cortez & Anuel AA",
+     "mbid": "55880b6d-f676-4c32-8923-b6d8c4ccfe14",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "En La De Ella",
+     "artist": "JHAYCO, Feid & Sech",
+     "mbid": "36675751-6a2f-425b-a991-5efacdb3eb43",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Imaginaste",
+     "artist": "Jhay Cortez & Tainy",
+     "mbid": "4551b776-118b-4d8d-8580-c51570a6be92",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "KIDS SEE GHOSTS",
+   "mbid": "793e220b-64f8-46d9-954d-e033dbcfeef4",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm"
+   ],
+   "songs": [
+    {
+     "title": "Reborn",
+     "artist": "KIDS SEE GHOSTS",
+     "mbid": "02f5cf43-a902-4b1f-b2d8-92d8550937ac",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "4th Dimension",
+     "artist": "KIDS SEE GHOSTS",
+     "mbid": "6b70e767-860b-496e-97f7-696fcb30266d",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Feel the Love",
+     "artist": "KIDS SEE GHOSTS",
+     "mbid": "6e9b5601-9517-4aa4-903d-2b56c5339aa4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Fire",
+     "artist": "KIDS SEE GHOSTS",
+     "mbid": "a3bb6a65-d2ed-4f85-ab58-966608945657",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Cudi Montage",
+     "artist": "KIDS SEE GHOSTS",
+     "mbid": "1f014e5a-3c7e-49e2-a744-5ea74824354d",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Lil Wayne",
+   "mbid": "ac9a487a-d9d2-4f27-bb23-0f4686488345",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Lollipop",
+     "artist": "Lil Wayne",
+     "mbid": "4d695a96-93b9-4528-8e72-858c6a74664f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Drop the World",
+     "artist": "Lil Wayne feat. Eminem",
+     "mbid": "4b49bd39-8b55-4743-9387-4dd1bb734732",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Hustler Musik",
+     "artist": "Lil Wayne",
+     "mbid": "fff01540-fe76-45b4-83cd-2601089e4bab",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "A Milli",
+     "artist": "Lil Wayne",
+     "mbid": "f6ff7206-cfdc-47fa-903b-1334f0c97553",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Fireman",
+     "artist": "Lil Wayne",
+     "mbid": "2e891b62-808b-4103-a1a3-791ddb0d5d7a",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Maroon 5",
+   "mbid": "0ab49580-c84f-44d4-875f-d83760ea2cfe",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "This Love",
+     "artist": "Maroon 5",
+     "mbid": "c114087d-c779-4bdd-a1d3-3f946bceb085",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Payphone",
+     "artist": "Maroon 5 feat. Wiz Khalifa",
+     "mbid": "b5229747-c0f1-4492-9a6c-065ae0979c72",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "She Will Be Loved",
+     "artist": "Maroon 5",
+     "mbid": "a253fc8f-5715-4e91-9337-d3f877f0ffcd",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Maps",
+     "artist": "Maroon 5",
+     "mbid": "0b4de2c7-f30a-45c1-b362-123c6dbe2ca5",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Sunday Morning",
+     "artist": "Maroon 5",
+     "mbid": "1b67c635-f7a5-4a82-9ee8-c52d32ca7122",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Mick Jenkins",
+   "mbid": "64c4dfcc-ba2b-4036-ac01-1636ae15ebb8",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Jazz",
+     "artist": "Mick Jenkins",
+     "mbid": "bad40e7b-08e0-4735-943e-cecdb9d20f3b",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Carefree",
+     "artist": "Mick Jenkins",
+     "mbid": "cdcabee0-0b7d-4740-a381-9cacecc6dc15",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Understood",
+     "artist": "Mick Jenkins",
+     "mbid": "a7d71ce8-1fc9-4aab-b498-691df4cfae5a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Smoke Break-Dance (feat. JID)",
+     "artist": "Mick Jenkins",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Vibe",
+     "artist": "Mick Jenkins",
+     "mbid": "5e71fc2b-11a8-42a6-9850-bbdb5d1e6cea",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Natti Natasha",
+   "mbid": "25be91ac-7d7c-441f-a7d2-98e35d642e4c",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Criminal",
+     "artist": "Natti Natasha",
+     "mbid": "37584e8a-f2ef-42b4-9182-ee11faa383ec",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Ram pam pam",
+     "artist": "Natti Natasha",
+     "mbid": "b6ad3276-7aaa-443d-a640-97fe60574187",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Amantes de una noche",
+     "artist": "Natti Natasha & Bad Bunny",
+     "mbid": "c253753f-3332-472c-9311-0427e8257339",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Mayor que usted",
+     "artist": "Natti Natasha + Daddy Yankee = Wisin & Yandel",
+     "mbid": "760993ed-7e9f-45c4-b74a-412ead271814",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Me gusta",
+     "artist": "Natti Natasha",
+     "mbid": "eb04bfe8-f237-4bf6-9dfe-0f6106c90d7a",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "NxWorries",
+   "mbid": "96c5c9a3-6c9b-41a7-90cc-e7375afbfde1",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Suede",
+     "artist": "NxWorries",
+     "mbid": "6bb775b8-aa86-4bcf-ad92-f485db354746",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Where I Go (feat. H.E.R.)",
+     "artist": "NxWorries",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Daydreaming",
+     "artist": "NxWorries",
+     "mbid": "2fd83438-f522-4709-868a-3aebee262fef",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "What More Can I Say",
+     "artist": "NxWorries",
+     "mbid": "06da839d-d639-4851-931b-e1954079712c",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Lyk Dis",
+     "artist": "NxWorries",
+     "mbid": "4769669d-7fd0-461b-b3a3-810f9bd01318",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "PARTYNEXTDOOR",
+   "mbid": "f23ef341-33bd-47c1-b83c-846a78581f05",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Break From Toronto",
+     "artist": "PARTYNEXTDOOR",
+     "mbid": "6caa8fde-9af0-4a15-b477-01ee92a0a7a4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Belong to the City",
+     "artist": "PARTYNEXTDOOR",
+     "mbid": "4417b14f-87fc-4cfe-9e0f-5a5e4028f216",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Come and See Me (feat. Drake)",
+     "artist": "PARTYNEXTDOOR",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Her Way",
+     "artist": "PARTYNEXTDOOR",
+     "mbid": "dfa72762-9415-4e91-8452-0ff491345a16",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "DIE TRYING",
+     "artist": "PARTYNEXTDOOR",
+     "mbid": "024c0350-1544-4a37-8dff-6042111cc6ee",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Polo G",
+   "mbid": "7e1e5648-1d6a-4248-975a-98603e781848",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "RAPSTAR",
+     "artist": "Polo G",
+     "mbid": "e8580ecd-476f-4c6e-b0d2-d0dca017d628",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Martin & Gina",
+     "artist": "Polo G",
+     "mbid": "fb39abb2-0a8b-40ad-959b-fd7d2c5dfa1f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Pop Out (feat. Lil Tjay)",
+     "artist": "Polo G",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Go Stupid",
+     "artist": "Polo G, Stunna 4 Vegas, NLE Choppa & Mike WiLL Made‐It",
+     "mbid": "ec99901f-f853-4b02-b3f5-edfc54cca258",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "21",
+     "artist": "Polo G",
+     "mbid": "4fa2cfba-df29-4a70-8f6a-248514366899",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Rauw Alejandro",
+   "mbid": "197b70c7-8910-4030-ad03-632d82aa40e3",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Qué pasaría…",
+     "artist": "Rauw Alejandro, Bad Bunny",
+     "mbid": "6b180119-6d50-4614-ab7f-cde1a892959a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Todo de ti",
+     "artist": "Rauw Alejandro",
+     "mbid": "2928b0e8-1116-4593-a214-5838d574fb08",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "LOKERA",
+     "artist": "Rauw Alejandro, Lyanno & Brray",
+     "mbid": "bfc09f19-c8fa-4da8-9c32-36d576f66893",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Desesperados",
+     "artist": "Rauw Alejandro & Chencho Corleone",
+     "mbid": "9b817d30-754e-4054-a53d-d1caf687febc",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "DILUVIO",
+     "artist": "Rauw Alejandro",
+     "mbid": "5f204919-70e5-4123-822d-464a70ad1c05",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Rihanna",
+   "mbid": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Don’t Stop the Music",
+     "artist": "Rihanna",
+     "mbid": "b2d1ed17-37d1-4eed-901d-cb52e3e1507d",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Only Girl (in the World)",
+     "artist": "Rihanna",
+     "mbid": "d7372eca-11f5-45e1-8cc8-8199d65dafa4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Umbrella",
+     "artist": "Rihanna feat. T.I.",
+     "mbid": "ef016d26-1273-4c02-b79a-5bc725f1f7bf",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "S&M",
+     "artist": "Rihanna feat. Britney Spears",
+     "mbid": "a6ed5358-6ad7-422e-9be6-dbc49a02586c",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Disturbia",
+     "artist": "Rihanna",
+     "mbid": "2d29ad68-bcd0-4652-954b-61e8bf9893ff",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Joseph Saba",
+   "mbid": "bec3a2ee-ec38-4e5f-9139-01442e3ac21c",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Photosynthesis",
+     "artist": "Saba",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "LIFE",
+     "artist": "Saba",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "BUSY / SIRENS",
+     "artist": "Saba",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "CALLIGRAPHY",
+     "artist": "Saba",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Ziplock",
+     "artist": "Saba",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "ScHoolboy Q",
+   "mbid": "bce6d667-cde8-485e-b078-c0a05adea36d",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Collard Greens",
+     "artist": "ScHoolboy Q, Kendrick Lamar, Jay Rock & Ab‐Soul",
+     "mbid": "f15d1982-c43a-40d8-b1b7-0146d703296f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Man of the Year",
+     "artist": "ScHoolboy Q",
+     "mbid": "09ea9382-593c-4346-b3e5-645be9130cfa",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "X (with 2 Chainz & Saudi)",
+     "artist": "ScHoolboy Q",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Studio",
+     "artist": "ScHoolboy Q ft BJ the Chicago Kid",
+     "mbid": "510513b0-c458-4b2e-ace5-20ecd3631333",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Numb Numb Juice",
+     "artist": "ScHoolboy Q",
+     "mbid": "d187f736-e915-4bba-87d5-1485c44e5132",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "The Internet",
+   "mbid": "45804465-4271-4e6a-b881-ce668ef09530",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Girl (feat. KAYTRANADA)",
+     "artist": "The Internet",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Hold On",
+     "artist": "The Internet",
+     "mbid": "9eb9e453-9df3-454a-884b-c17060513bf9",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Palace/Curse (feat. Tyler, The Creator & Steve Lacy)",
+     "artist": "The Internet",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Special Affair",
+     "artist": "The Internet",
+     "mbid": "9aef63f5-840a-49d2-88d4-11676de41e9d",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Dontcha",
+     "artist": "The Internet",
+     "mbid": "210c5f2e-7630-4e15-888e-7ca20538bac6",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Tion Wayne",
+   "mbid": "016fcdc6-e7fa-4272-a28d-f54d890ac771",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "I Dunno (feat. Dutchavelli & Stormzy)",
+     "artist": "Tion Wayne",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "IFTK",
+     "artist": "Tion Wayne & La Roux",
+     "mbid": "56b868ed-74d4-47eb-85d6-c65176340d54",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Wid It",
+     "artist": "Tion Wayne & ArrDee",
+     "mbid": "841d7811-aee8-4ce3-873d-5be868c0deb1",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Wow",
+     "artist": "Tion Wayne",
+     "mbid": "e65e0c2e-24a9-4047-98bc-a0dd4486924e",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Knock Knock",
+     "artist": "Tion Wayne",
+     "mbid": "dcda4d39-5ba3-4766-aef2-b961f35c079f",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Ty Dolla $ign",
+   "mbid": "7bd66c18-cb33-49aa-9279-140acedbdb49",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm"
+   ],
+   "songs": [
+    {
+     "title": "Ego Death",
+     "artist": "Ty Dolla $ign feat. Kanye West, FKA twigs & Skrillex",
+     "mbid": "bc3ef182-d9e9-4529-9e1c-538f4ee322a2",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "DON'T KILL THE PARTY (feat. Quavo & Juicy J)",
+     "artist": "Ty Dolla $ign",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Spicy",
+     "artist": "Ty Dolla $ign feat. Post Malone",
+     "mbid": "d78d82b5-194d-49ad-922b-958a7ca62774",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Blasé (feat. Future & Rae Sremmurd)",
+     "artist": "Ty Dolla $ign",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Paranoid (feat. B.o.B)",
+     "artist": "Ty Dolla $ign",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Tyler, The Creator",
+   "mbid": "f6beac20-5dfe-4d1f-ae02-0b0a740aafd6",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "See You Again (feat. Kali Uchis)",
+     "artist": "Tyler, The Creator",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "EARFQUAKE",
+     "artist": "Tyler, The Creator",
+     "mbid": "7bfbdd56-d54d-495c-953d-780617ee39e2",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "ARE WE STILL FRIENDS?",
+     "artist": "Tyler, The Creator",
+     "mbid": "e3111316-c43d-4abb-912b-b734fce7c797",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "NEW MAGIC WAND",
+     "artist": "Tyler, The Creator",
+     "mbid": "fab6581f-8d58-4c3b-8c29-82b36581ecae",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "BEST INTEREST",
+     "artist": "Tyler, The Creator",
+     "mbid": "bf69d97a-64c1-4730-9895-a3d7ada35f27",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Vic Mensa",
+   "mbid": "e031ec18-f8eb-46c1-b03c-e5c71399cb16",
+   "name_source": "musicbrainz",
+   "layer": 2,
+   "closeness": 1.0,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Liquor Locker",
+     "artist": "Vic Mensa",
+     "mbid": "b7278e9c-5571-44f2-9fc4-50eeec7cb558",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "U Mad",
+     "artist": "Vic Mensa feat. Kanye West",
+     "mbid": "6e3d4d91-0290-42ab-abba-83ede2952b97",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Down on My Luck",
+     "artist": "Vic Mensa",
+     "mbid": "46c4c63d-d644-439e-8391-83cdf0e224f1",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Say I Didn't",
+     "artist": "Vic Mensa",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Reverse (feat. G-Eazy)",
+     "artist": "Vic Mensa",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "2 Chainz",
+   "mbid": "dff0d392-4cd5-4052-9fbb-f485df3891e5",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "It’s a Vibe",
+     "artist": "2 Chainz feat. Ty Dolla $ign, Trey Songz & Jhené Aiko",
+     "mbid": "04d98fa3-7c15-4396-8813-82886f86def7",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "We Own It (Fast & Furious)",
+     "artist": "2 Chainz & Wiz Khalifa",
+     "mbid": "7580cbf7-0d63-4068-88ff-4212f690e504",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "4 AM",
+     "artist": "2 Chainz feat. Travis Scott",
+     "mbid": "bfbe4297-9648-4bb5-ba58-651f0a3f6934",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "I’m Different",
+     "artist": "2 Chainz",
+     "mbid": "180affdc-15b8-4ca8-8ee9-8c25863ba6f4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Birthday Song",
+     "artist": "2 Chainz feat. Kanye West",
+     "mbid": "ebcf2188-586f-4ffe-8d4c-db604d7c7f8f",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Ab‐Soul",
+   "mbid": "acc12019-10e3-40aa-b4bf-66fbb4a692af",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Bloody Waters (with Anderson .Paak & James Blake)",
+     "artist": "Ab-Soul",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Illuminate (feat. Kendrick Lamar)",
+     "artist": "Ab-Soul",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "The Law (feat. Mac Miller & Rapsody)",
+     "artist": "Ab-Soul",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Do Better",
+     "artist": "Ab‐Soul feat. Zacari",
+     "mbid": "b5b2444f-71b3-4de1-95bd-3c3bde65b655",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Terrorist Threats (feat. Danny Brown & Jhene Aiko)",
+     "artist": "Ab-Soul",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Aminé",
+   "mbid": "12398bf3-1b99-47b7-930c-f3956773f35a",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Reel It In",
+     "artist": "Aminé",
+     "mbid": "1e90c41f-13e1-4a39-bf68-85c0831a944e",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Caroline",
+     "artist": "Aminé",
+     "mbid": "eebbc1ad-837a-4379-bfbe-630999394744",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Spice Girl",
+     "artist": "Aminé",
+     "mbid": "3e2ff1ae-f90c-4a0d-937e-79b4f455ff29",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Charmander",
+     "artist": "Aminé",
+     "mbid": "0de13571-a8fa-4a6a-b91c-1e9b77ecdc02",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Invincible",
+     "artist": "Aminé",
+     "mbid": "fd74871d-2d99-4344-8fdc-b0185028118d",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Baghira",
+   "mbid": "cc77af81-c416-4523-9cfa-8609d33aaa09",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Seamless Connection",
+     "artist": "Baghira",
+     "mbid": "47f2a21f-439a-4941-89d7-d88c9ea1cd59",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Icon",
+     "artist": "Baghira",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "A Thrill of Anticipation",
+     "artist": "Baghira",
+     "mbid": "2ae485dc-742f-4128-85bb-ea9783283b90",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Craft",
+     "artist": "Baghira",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "400 Trees",
+     "artist": "Baghira",
+     "mbid": "830d47fb-940f-44fb-8329-9bfcada55709",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Bas",
+   "mbid": "3ba54400-4c97-450f-b108-bcd90b9b2b76",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Tribe (with J. Cole)",
+     "artist": "Bas",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Night Job",
+     "artist": "Bas feat. J. Cole",
+     "mbid": "413b97f0-0402-4715-acf6-b1706f02aea4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "The Jackie (with J. Cole & Lil Tjay)",
+     "artist": "Bas",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Boca Raton (with A$AP Ferg)",
+     "artist": "Bas",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "My Nigga Just Made Bail",
+     "artist": "Bas feat. J. Cole",
+     "mbid": "7913ff6c-049b-4f07-9128-0fa303b611e6",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Big Sean",
+   "mbid": "942a9807-9c1a-4a0e-a285-1fde2c5be9d1",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "I Don’t Fuck With You",
+     "artist": "Big Sean feat. E‐40",
+     "mbid": "adcfa0c2-99ab-4529-87ed-169ac0e4f646",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Beware",
+     "artist": "Big Sean feat. Lil Wayne feat. Jhené Aiko",
+     "mbid": "e19ec6ad-92b1-4c46-9b19-d185b5907be4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "What U Doin? (Explicit Version)",
+     "artist": "Big Sean",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Bounce Back",
+     "artist": "Big Sean",
+     "mbid": "27090468-b147-4f47-a757-b0542384de21",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "I Know",
+     "artist": "Big Sean feat. Jhené Aiko",
+     "mbid": "c11e0ca5-2366-4b96-98ea-c575856ffeb5",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Bryson Tiller",
+   "mbid": "d8fd8d9b-473b-4f06-83c8-869b1bb9de89",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Don't",
+     "artist": "Bryson Tiller",
+     "mbid": "890b12ec-ad73-4b0d-863c-b7b208cd3944",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Exchange",
+     "artist": "Bryson Tiller",
+     "mbid": "dd6cc9b3-ece9-499c-b6ab-2074566dca3c",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Right My Wrongs",
+     "artist": "Bryson Tiller",
+     "mbid": "5ad0f204-afc3-4253-ba37-2b67bd48f37b",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Whatever She Wants",
+     "artist": "Bryson Tiller",
+     "mbid": "c4a63063-642d-462c-b4d4-928300a3d006",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Sorrows",
+     "artist": "Bryson Tiller",
+     "mbid": "79b889c8-25e8-4bc9-b003-b0f3cca4ca0b",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Coldplay",
+   "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Yellow",
+     "artist": "Coldplay",
+     "mbid": "b5b67f4d-16c2-4fc5-a0a8-0300dd588cac",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Viva La Vida (radio edit)",
+     "artist": "Coldplay",
+     "mbid": "15f4cc8c-016e-4bbb-ba53-798f1f1a91d1",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "The Scientist",
+     "artist": "Coldplay",
+     "mbid": "e8a57e03-cbf8-4073-9ff8-139858518074",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Clocks",
+     "artist": "Coldplay",
+     "mbid": "af82d8e5-fe1e-43df-a077-6d317a6b2d13",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Sparks",
+     "artist": "Coldplay",
+     "mbid": "26eb2387-d51f-4727-b195-4c0be7fbb06f",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Dave Matthews Band",
+   "mbid": "07e748f1-075e-428d-85dc-ce3be434e906",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Sprinter",
+     "artist": "Dave",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Raindance (feat. Tems)",
+     "artist": "Dave",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Location (feat. Burna Boy)",
+     "artist": "Dave",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Starlight",
+     "artist": "Dave",
+     "mbid": "fe987f4d-c05b-4afd-b79b-5e35aee763e9",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Thiago Silva",
+     "artist": "Dave",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "EarthGang",
+   "mbid": "383005e1-657d-468b-a448-08ecf35b3943",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Meditate (feat. J.I.D.)",
+     "artist": "EARTHGANG",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Proud of U (feat. Young Thug)",
+     "artist": "EARTHGANG",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "WATERBOYZ (with JID & J. Cole)",
+     "artist": "EARTHGANG",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Missed Calls",
+     "artist": "EarthGang",
+     "mbid": "15b56c6b-2b57-4a9c-877c-08b39d0eb639",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Up",
+     "artist": "EARTHGANG",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Feid",
+   "mbid": "eaee97f6-f2e4-414a-966c-f31a1fb4696a",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "CLASSY 101",
+     "artist": "Feid x Young Miko",
+     "mbid": "6e2375d4-72ef-42e4-a6dd-ad782dee35a3",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "LUNA",
+     "artist": "Feid & ATL Jacob",
+     "mbid": "ebe65cf8-fa27-4d6b-954b-b344f15152a5",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Feliz cumpleaños Ferxxo",
+     "artist": "Feid",
+     "mbid": "cff50077-3032-446a-8262-9ed93ab763e3",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Normal",
+     "artist": "Feid",
+     "mbid": "1be6beda-91f9-4534-b1c7-133eb1ca8e30",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "CHORRITO PA LAS ÁNIMAS",
+     "artist": "Feid",
+     "mbid": "50e03097-a579-4a8d-879d-9d5d4d097781",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Frank Ocean",
+   "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Pink + White",
+     "artist": "Frank Ocean",
+     "mbid": "2f3b06db-e7c4-4409-a807-499efe7b7d0d",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Thinkin Bout You",
+     "artist": "Frank Ocean",
+     "mbid": "a3dc556d-4250-4e8f-a9d7-c26ddb876e0a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Lost",
+     "artist": "Frank Ocean",
+     "mbid": "28a1ff2e-a126-4858-a95f-4e73b817c1cb",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Ivy",
+     "artist": "Frank Ocean",
+     "mbid": "fe8b367d-78ef-4ec3-9c9a-ff3435a65d5b",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "White Ferrari",
+     "artist": "Frank Ocean",
+     "mbid": "a1f25623-f56c-4f36-bcce-67488d04e7cc",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Headie One",
+   "mbid": "2e2c71a6-1ac8-4442-ba00-c4dea71abd64",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Only You Freestyle",
+     "artist": "Headie One × Drake",
+     "mbid": "7c0b2cd5-f149-46c2-b765-29864e3d9fd1",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Ain't It Different (feat. AJ Tracey & Stormzy)",
+     "artist": "Headie One",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Both",
+     "artist": "Headie One",
+     "mbid": "5bfe0e14-46f9-4527-8058-8f66e2091c1a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "18HUNNA (feat. Dave)",
+     "artist": "Headie One",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Princess Cuts (feat. Young T & Bugsey)",
+     "artist": "Headie One",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "JAŸ-Z",
+   "mbid": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm"
+   ],
+   "songs": [
+    {
+     "title": "Ni**as in Paris",
+     "artist": "Jay‐Z & Kanye West",
+     "mbid": "ab52ebc6-28f4-4eec-a357-dc5a9d0fab2e",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Empire State of Mind",
+     "artist": "Jay-Z Alicia Keys",
+     "mbid": "94bf6dea-b524-43f4-a7dd-8239c2380d95",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "99 Problems",
+     "artist": "JAY‐Z",
+     "mbid": "5782d060-63f8-4770-a37e-6df3f725a59b",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "No Church in the Wild",
+     "artist": "Kanye West & JAY Z featuring Frank Ocean & The Dream",
+     "mbid": "62851a84-b837-4356-9e05-ebd8b68c0dad",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Run This Town",
+     "artist": "Jay‐Z",
+     "mbid": "8c91a066-41ca-48ee-8528-6ab1069db0e3",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Lil Baby",
+   "mbid": "d42a5768-ada1-4fb6-85fd-f61aba6264e0",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Drip Too Hard (Lil Baby & Gunna)",
+     "artist": "Lil Baby",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Yes Indeed",
+     "artist": "Lil Baby & Drake",
+     "mbid": "565f6126-e1d3-4155-933a-70bc9ac3db99",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Freestyle",
+     "artist": "Lil Baby",
+     "mbid": "04e7a888-c18f-4ab3-9a62-a44f248b80c2",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Pure Cocaine",
+     "artist": "Lil Baby",
+     "mbid": "8cc74581-e677-4851-ad27-83d05515fd36",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Sum 2 Prove",
+     "artist": "Lil Baby",
+     "mbid": "e69b0490-9ae0-4f73-a935-bc01d125d0ad",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Mac Miller",
+   "mbid": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "The Spins",
+     "artist": "Mac Miller & Empire Of The Sun",
+     "mbid": "db1718e1-f30d-4c33-938b-bc1e169075a4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Self Care",
+     "artist": "Mac Miller",
+     "mbid": "eaa56493-9460-46bc-8094-1cd3fa03e6c2",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Small Worlds",
+     "artist": "Mac Miller",
+     "mbid": "43be7136-6c68-4e15-90bb-d6a1219c50a4",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Come Back to Earth",
+     "artist": "Mac Miller",
+     "mbid": "74b43e55-c328-4034-a959-149b9cbc2072",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Congratulations (feat. Bilal)",
+     "artist": "Mac Miller",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Maluma",
+   "mbid": "e8979f75-9110-4df8-ac70-898898d080d1",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Borró cassette",
+     "artist": "Maluma",
+     "mbid": "3f3e5580-dacb-48c7-b4b2-087ef6d24d5f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Hawái",
+     "artist": "Maluma",
+     "mbid": "4ce7803b-ef4a-4722-9170-c4d7a35ff19c",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Felices los 4",
+     "artist": "Maluma",
+     "mbid": "15010726-6fc0-43c1-8e54-d67125b24eb5",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "El perdedor",
+     "artist": "Maluma",
+     "mbid": "551fde25-bd55-4c44-ac7e-4e04c1c09222",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "11 PM",
+     "artist": "Maluma",
+     "mbid": "0a2d946e-d01d-4798-adc9-4b30cbf73faa",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Mora",
+   "mbid": "f85f6e24-192b-4fa0-9b38-0aff4a396302",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "LA INOCENTE",
+     "artist": "Mora & Feid",
+     "mbid": "d8e075bb-6435-4053-96fd-7f4028820836",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "512",
+     "artist": "Mora & Jhay Cortez",
+     "mbid": "bbd9dad8-9dc0-4857-8eba-3fd7e8fddc48",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Tuyo",
+     "artist": "Mora",
+     "mbid": "b4da9bc3-eed7-4f7f-8fe6-9310ac18726b",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "MEMORIAS",
+     "artist": "Mora & JHAYCO",
+     "mbid": "c9293bac-4757-4431-9b9f-536c9f74f315",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "MODELITO",
+     "artist": "Mora & YOVNGCHIMI",
+     "mbid": "00e8c076-8f3d-4303-88fd-aa16912c1e62",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Nicki Minaj",
+   "mbid": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Starships",
+     "artist": "Nicki Minaj",
+     "mbid": "7101eeb1-5210-4a97-b4d6-81aa2ff92835",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Super Bass",
+     "artist": "Nicki Minaj",
+     "mbid": "6a603e51-400c-4a23-95cd-3ac09ad77e3c",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Anaconda",
+     "artist": "Nicki Minaj",
+     "mbid": "b4af7d9d-5f25-4d49-8fed-a538ef18bd2a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Super Freaky Girl",
+     "artist": "Nicki Minaj",
+     "mbid": "ec81e381-c77a-4eb6-a237-fbd0e7d6038f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Barbie World (with Aqua) [From Barbie the Album]",
+     "artist": "Nicki Minaj",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Offset",
+   "mbid": "92631c53-91ed-48f5-a09d-a104ba69cdc7",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Ric Flair Drip (with Metro Boomin)",
+     "artist": "Offset",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Say My Grace (feat. Travis Scott)",
+     "artist": "Offset",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Danger (Spider) (Offset & JID)",
+     "artist": "Offset",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Clout (feat. Cardi B)",
+     "artist": "Offset",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Legacy (feat. Travis Scott & 21 Savage)",
+     "artist": "Offset",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Ozuna",
+   "mbid": "f2651b63-a44d-4d1d-ba64-d981d971ecd1",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Se preparó",
+     "artist": "Ozuna",
+     "mbid": "3f0e0bc8-9701-4030-8f60-3db7668a7452",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Dile que tú me quieres",
+     "artist": "Ozuna",
+     "mbid": "e2cc00c7-173b-4f93-8662-bd412db58eda",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Hey mor",
+     "artist": "Ozuna feat. Feid",
+     "mbid": "b337ffa9-60cd-473c-9242-bc8bc31da8a1",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "El farsante",
+     "artist": "Ozuna",
+     "mbid": "801bdb04-a64a-405f-852e-e9794f96755a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Vaina loca",
+     "artist": "Ozuna x Manuel Turizo",
+     "mbid": "af27136d-0dec-4d7a-9c72-185e74fcd810",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Pusha T",
+   "mbid": "14ecd19f-7121-4192-8549-e5056241a42f",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "The Games We Play",
+     "artist": "Pusha T",
+     "mbid": "ce4000bc-00d9-4cd0-9bd2-2ff92eda3882",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Trouble On My Mind",
+     "artist": "Pusha T & Tyler, The Creator",
+     "mbid": "7bf0e4fd-0372-45be-8725-7dc252b3cb49",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Nosetalgia",
+     "artist": "Pusha T feat. Kendrick Lamar",
+     "mbid": "9ff6d9b4-f685-446b-9317-db88b8b7c21f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "If You Know You Know",
+     "artist": "Pusha T",
+     "mbid": "41e2c066-5528-4d37-9f56-e19a2ab0bdcf",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Dreamin of the Past (feat. Kanye West)",
+     "artist": "Pusha T",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Selena Gomez",
+   "mbid": "e4bc69e2-a064-4f93-ada1-f7f209cc1cc3",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Good for You",
+     "artist": "Selena Gomez feat. A$AP Rocky",
+     "mbid": "9a092e65-e6cc-4620-96c9-e73947013142",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Come & Get It",
+     "artist": "Selena Gomez",
+     "mbid": "31990f0e-a62b-4577-ae31-21af514a5da0",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Same Old Love",
+     "artist": "Selena Gomez",
+     "mbid": "4cdd33f9-c037-436b-9df7-d935b50f2e8a",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Lose You to Love Me",
+     "artist": "Selena Gomez",
+     "mbid": "d6d73b5e-bbbc-4e0e-a450-23616a47b431",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Fetish",
+     "artist": "Selena Gomez feat. Gucci Mane",
+     "mbid": "55903ac5-73df-4c4e-870a-c2b160c9b102",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Shawn Mendes",
+   "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Treat You Better",
+     "artist": "Shawn Mendes",
+     "mbid": "409eef7e-e80f-4d80-90b3-a27cf256f523",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Stitches",
+     "artist": "Shawn Mendes",
+     "mbid": "6d8c6513-3cd9-4784-bdf3-8df811605529",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "There’s Nothing Holdin’ Me Back",
+     "artist": "Shawn Mendes",
+     "mbid": "d2555d82-571d-406c-8e96-21562753cebc",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Señorita",
+     "artist": "Shawn Mendes & Camila Cabello",
+     "mbid": "62f09fd2-144a-439a-96f9-ce93f05b48ae",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Mercy",
+     "artist": "Shawn Mendes",
+     "mbid": "50152384-d758-4c5b-95aa-04a68a44fe99",
+     "source": "musicbrainz"
+    }
+   ]
+  },
+  {
+   "name": "Sir Arthur Conan Doyle",
+   "mbid": "0568c60f-9852-4708-82ab-1afb8bb1342f",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "D'Evils",
+     "artist": "SiR",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "John Redcorn",
+     "artist": "SiR",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Hair Down",
+     "artist": "SiR",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "You Can't Save Me",
+     "artist": "SiR",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "The Recipe",
+     "artist": "SiR",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Smino",
+   "mbid": "96800e05-9924-4321-859a-76e0d4750f2f",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Wild Irish Roses",
+     "artist": "Smino",
+     "mbid": "8027ae5d-8c43-48c9-be24-016638a80611",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "No L's",
+     "artist": "Smino",
+     "mbid": "329e8ffa-a3ff-4dd1-82ef-2cd5d9c1bfa8",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Amphetamine",
+     "artist": "Smino",
+     "mbid": "f8ad70cf-77ce-4933-802f-115601e70991",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Z4L (with Bari & Jay2)",
+     "artist": "Smino",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "90 Proof (with J. Cole)",
+     "artist": "Smino",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Syd",
+   "mbid": "9a612dbc-7354-43f6-b172-461e1fa9903e",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm"
+   ],
+   "songs": [
+    {
+     "title": "Body",
+     "artist": "Syd",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Out Loud (feat. Kehlani)",
+     "artist": "Syd",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Dollar Bills (feat. Steve Lacy)",
+     "artist": "Syd",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "All About Me",
+     "artist": "Syd",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Right Track (feat. Smino)",
+     "artist": "Syd",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "YG",
+   "mbid": "6b1cf581-17a9-42c3-927b-d1e2797b1695",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "My Nigga",
+     "artist": "YG",
+     "mbid": "ec3887b4-40e7-4c10-9fd9-d16ac8010e0c",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Who Do You Love?",
+     "artist": "YG",
+     "mbid": "6cd1fa5f-30c7-45fa-b76a-7dbdbd73057f",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Big Bank (feat. 2 Chainz, Big Sean, Nicki Minaj)",
+     "artist": "YG",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Why You Always Hatin?",
+     "artist": "YG feat. Drake & Kamaiyah",
+     "mbid": "1b863fcd-15a1-499d-9c0c-3a6c0b2bc966",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Go Loko (feat. Tyga, Jon Z)",
+     "artist": "YG",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  },
+  {
+   "name": "Young Thug",
+   "mbid": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+   "name_source": "musicbrainz",
+   "layer": 3,
+   "closeness": 0.5,
+   "found_by": [
+    "lastfm",
+    "listenbrainz"
+   ],
+   "songs": [
+    {
+     "title": "Pick Up the Phone",
+     "artist": "Young Thug feat. Quavo",
+     "mbid": "85585687-a538-4c27-9fc8-c87aeb43cfd1",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "The London (feat. J. Cole & Travis Scott)",
+     "artist": "Young Thug",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Bad Bad Bad (feat. Lil Baby)",
+     "artist": "Young Thug",
+     "mbid": null,
+     "source": "lastfm"
+    },
+    {
+     "title": "Digits",
+     "artist": "Young Thug",
+     "mbid": "ced1dc21-a56b-44f2-8c3e-49a220ea38fa",
+     "source": "musicbrainz"
+    },
+    {
+     "title": "Hot (feat. Gunna)",
+     "artist": "Young Thug",
+     "mbid": null,
+     "source": "lastfm"
+    }
+   ]
+  }
+ ]
+}
