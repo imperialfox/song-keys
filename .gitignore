@@ -1,0 +1,6 @@
+# Lookup cache: private, kept in the Actions cache only
+.cache/
+# Seed lists are personal: never commit them
+seed*.txt
+*.seed.txt
+__pycache__/

@@ -1,0 +1,86 @@
+name: Build neighbours
+
+# Run by hand: Actions tab > Build neighbours > Run workflow.
+# "dry" uses the first 10 seed artists and writes data/neighbours-dry-run.json.
+# "full" uses all seed artists and writes data/neighbours.json.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry (first 10 seed artists) or full (all of them)"
+        type: choice
+        options: [dry, full]
+        default: dry
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-neighbours
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Offline test (made-up artists)
+        run: python3 -I tests/test_fetch.py > /dev/null
+
+      # The cache holds raw lookups, which would show which artists were searched.
+      # It stays in the private Actions cache and is never committed.
+      - name: Restore lookup cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: lookups-${{ github.run_id }}
+          restore-keys: lookups-
+
+      - name: Write the seed list (private, never committed or printed)
+        env:
+          SEED_ARTISTS: ${{ secrets.SEED_ARTISTS }}
+        run: printf '%s\n' "$SEED_ARTISTS" > "$RUNNER_TEMP/seed.txt"
+
+      - name: Fan out
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$MODE" = "full" ]; then
+            python3 -I fetch.py --seeds "$RUNNER_TEMP/seed.txt" \
+              --out data/neighbours.json --receipt data/build-receipt.md
+          else
+            python3 -I fetch.py --seeds "$RUNNER_TEMP/seed.txt" --limit 10 --minutes 60 \
+              --out data/neighbours-dry-run.json --receipt data/build-receipt-dry-run.md
+          fi
+
+      - name: Save lookup cache
+        if: always() && hashFiles('.cache/*.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: lookups-${{ github.run_id }}
+
+      - name: Remove the seed list
+        if: always()
+        run: rm -f "$RUNNER_TEMP/seed.txt"
+
+      - name: Commit results
+        env:
+          MODE: ${{ inputs.mode }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Data: $MODE run ${{ github.run_number }}"
+            git push
+          fi
