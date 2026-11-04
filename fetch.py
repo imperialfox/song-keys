@@ -18,7 +18,7 @@ Standard library only. Run:  python3 fetch.py --seeds seed.txt --limit 10 --out 
 import argparse, json, os, re, sys, threading, time, traceback, unicodedata, urllib.parse, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 UA = f"song-keys/{VERSION} (https://github.com/imperialfox/song-keys)"
 LASTFM = "https://ws.audioscrobbler.com/2.0/"
 LB_SIMILAR = "https://labs.api.listenbrainz.org/similar-artists/json"
@@ -213,13 +213,15 @@ class Sources:
 
     def mb_artist(self, name):
         d = self.c.get("mb", MB + "artist", {"query": f'artist:"{self._q(name)}"', "limit": "3", "fmt": "json"})
+        # Only accept a MusicBrainz artist whose name matches. A top search score alone is not
+        # enough: "SiR" scored 100 for "Sir Arthur Conan Doyle" and "Dave" for "Dave Matthews Band".
         try:
             for a in as_list(d["artists"]):
                 if int(a.get("score", 0)) >= 90 and norm(a["name"]) == norm(name):
                     return {"mbid": a["id"], "name": a["name"]}
-            a = d["artists"][0]
-            if int(a.get("score", 0)) == 100:
-                return {"mbid": a["id"], "name": a["name"]}
+                for alias in as_list(a.get("aliases")):
+                    if int(a.get("score", 0)) >= 90 and norm(alias.get("name", "")) == norm(name):
+                        return {"mbid": a["id"], "name": a["name"]}
         except (TypeError, KeyError, IndexError):
             pass
         return None

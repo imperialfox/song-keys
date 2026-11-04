@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 · 4 Nov 2026
+
+- A MusicBrainz artist is now only accepted when its name or an alias matches. The dry run had named SiR as "Sir Arthur Conan Doyle", Saba as "Joseph Saba" and Dave as "Dave Matthews Band", because a top search score was trusted on its own.
+
 ## 0.1.1 · 4 Nov 2026
 
 - Fixes the first dry run, which stopped after 10 minutes without saving anything. Last.fm sends a single item instead of a one-item list, for example an artist with one tag, and the tag check didn't expect that.

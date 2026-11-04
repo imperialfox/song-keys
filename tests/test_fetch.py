@@ -42,6 +42,8 @@ def resp(url):
     if "musicbrainz" in u.netloc:
         if u.path.endswith("/artist"):
             name = q["query"].split('"')[1].replace("\\", "")
+            if name == "Theta":  # a top-scoring but wrong artist must be refused
+                return {"artists": [{"id": "mb-wrong", "name": "Theta Orchestra", "score": 100}]}
             return {"artists": [{"id": "mb-" + name.lower(), "name": name.upper() if name == "Alpha" else name, "score": 100}]}
         if "/recording/" in u.path:
             return {"id": u.path.rsplit("/", 1)[1], "title": "MB " + u.path.rsplit("/", 1)[1][4:], "artist-credit": [{"name": "Credit", "joinphrase": ""}]}
@@ -97,6 +99,7 @@ def main():
             for s in a["songs"]:
                 assert not any(w in s["title"] for w in ("Remix", "Instrumental", "Live")), s
         assert any(s["source"] == "musicbrainz" for s in by["Beta"]["songs"])
+        assert by["Theta"]["name_source"] == "lastfm" and by["Theta"]["mbid"] is None, by["Theta"]
         assert "instrumental artists" in receipt and "complete" in receipt
         assert "30 titles" in receipt, receipt
         print("OK:", len(data["artists"]), "artists,", sum(len(a["songs"]) for a in data["artists"]), "songs")
